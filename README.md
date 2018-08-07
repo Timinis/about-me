@@ -1,2 +1,2 @@
 # about-me
-A quick site about my ambition
+A quick site about my aspirations
