@@ -2,3 +2,31 @@
     color: teal;
     background-color: aquamarine;
 }
+
+h1 {
+    font-size: 120px;
+    font-weight: 45px;
+    color: darkblue;
+    Margin: 45px 45px;
+    position: 150px;
+    border-bottom-width: 9px;
+    border-bottom-color: white;
+}
+
+nav li {
+    display: inline;
+    background-color: gold;
+    color: white;
+    font-size: 50px;
+    border-style: dotted;
+    border-color: 2px;
+    padding: 30px 45px;
+    border: 15px 25px;
+    margin: 10px 10px;
+}
+
+p {
+    margin: 80px;
+    Color: gold;
+    font-size: 25px;
+}
