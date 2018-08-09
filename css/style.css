@@ -25,6 +25,20 @@ nav li {
     margin: 10px 10px;
 }
 
+h2 {
+    font-size: 25px;
+    color:white;
+    margin: 10px
+}
+ul li{
+    color:white;
+}
+ol li{
+    color:white;
+    list-style-type: upper-roman;
+    position:relative;
+    left: 50px; 
+}
 p {
     margin: 80px;
     Color: gold;
