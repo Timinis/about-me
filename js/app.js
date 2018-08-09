@@ -3,7 +3,7 @@
 // Get the user's name
 
 var userName = prompt('Please cite your name trespasser!');
-var correct = 0;
+let correct = 0;
 var totalQuestions = 0;
 alert(userName + '! Answer these questions correctly to proceed on! Answer with y/n or yes/no');
 
@@ -21,9 +21,12 @@ alert(userName + '! Answer these questions correctly to proceed on! Answer with 
 //adjust the questions limit on the loop to add more questions and add question below by copying such format
 
 var answerOne = prompt('Are green tea and red tea from the same kind of tea leaves?').toLowerCase();
-if (answerOne === 'yes' || answerOne === 'y') { alert('That is correct! Here is your next question!'); } else {
-  alert('That is incorrect! This is not going well');
+if (answerOne === 'yes' || answerOne === 'y') {
+  alert('That is correct! Here is your next question!');
   correct++;
+}
+else {
+  alert('That is incorrect! This is not going well');
 }
 console.log(
   'This question is designed for tea lovers ' + userName + ' answered ' +
