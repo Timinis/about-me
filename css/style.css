@@ -1,22 +1,48 @@
-* {
-    color: teal;
-    background-color: aquamarine;
+.jumbotron {
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/06/17/07/ship-3587946_1280.jpg);
+    background-repeat: no-repeat;
+    height: 285px;
+    text-align: center;
+    background-position-y: -250px;
+    background-position-x: center;
+    position: relative;
+    width: 100%;
+}
+
+.content {
+    margin-top: 0px;
+    background-color: rgb(229, 240, 250);
 }
 
 h1 {
     font-size: 120px;
-    font-weight: 45px;
     color: darkblue;
-    Margin: 45px 45px;
-    position: 150px;
-    border-bottom-width: 9px;
-    border-bottom-color: white;
+    margin-bottom: 25px;
+    font-family: Snell Roundhand;
+    font-weight: bold;
+    position: fixed;
+}
+
+nav {
+    background-color: white;
+    opacity: .5;
+    padding: 30px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 195px;
+}
+
+nav:hover {
+    background-color: lightgrey;
+    opacity: .5;
+    padding: 30px;
+    padding-bottom: 10px;
 }
 
 nav li {
+    position: relative;
     display: inline;
-    background-color: gold;
-    color: white;
+    color: blue;
     font-size: 50px;
     border-style: dotted;
     border-color: 2px;
@@ -27,20 +53,22 @@ nav li {
 
 h2 {
     font-size: 25px;
-    color:white;
-    margin: 10px
+    color: white;
 }
-ul li{
-    color:white;
+
+ul li {
+    color: white;
 }
-ol li{
-    color:white;
+
+ol li {
+    color: white;
     list-style-type: upper-roman;
-    position:relative;
-    left: 50px; 
+    position: relative;
+    left: 50px;
 }
+
 p {
-    margin: 80px;
+    padding-top: 45px;
     Color: gold;
     font-size: 25px;
 }
