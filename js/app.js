@@ -2,6 +2,7 @@
 
 // Get the user's name
 
+
 var userName = prompt('Please cite your name trespasser!');
 var correct = 0;
 var totalQuestions = 0;
